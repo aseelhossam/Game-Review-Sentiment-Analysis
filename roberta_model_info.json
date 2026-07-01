@@ -1,0 +1,16 @@
+{
+  "model_name": "cardiffnlp/twitter-roberta-base-sentiment-latest",
+  "revision": "main",
+  "original_labels": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "label_mapping": {
+    "method": "direct",
+    "negative": 0,
+    "neutral": 1,
+    "positive": 2,
+    "note": "Labels already match our 3-class ground-truth scheme; integer cast only."
+  }
+}
